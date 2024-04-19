@@ -58,18 +58,48 @@ body {
 .botoes{
     display: block;
 }
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  @media screen and (min-width:768px){
     .botoes{
         display: flex
     }
-
-
-.ativo{
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
-}
-    
 
 .botao:first-child {
     border-radius: 40px 0 0 0;
@@ -77,7 +107,7 @@ body {
 }
 
 .botao:last-child{
-    border-radius: 0 40px 0;
+    border-radius: 0 40px 0 0;
 }
 
 }
